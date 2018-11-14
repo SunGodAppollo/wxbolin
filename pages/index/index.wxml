@@ -8,7 +8,7 @@
     <view class='tab  {{currentData == 3 ? "tabBorer" : ""}}'  data-current = "3" bindtap='checkCurrent'>分类二</view>
     <view class='tab  {{currentData == 4 ? "tabBorer" : ""}}'  data-current = "4" bindtap='checkCurrent'>分类三</view>
 </view>
-<swiper current="{{currentData}}" class='swiper' style="height:600px;" duration="300" bindchange="bindchange">
+<swiper current="{{currentData}}" class='swiper' style="height:10000px;" duration="300" bindchange="bindchange">
   <swiper-item><view class='swiper_con'>
     <block wx:for="{{goodslis}}">
     <view class="goods-item">
