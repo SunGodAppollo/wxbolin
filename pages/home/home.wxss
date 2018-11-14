@@ -1,0 +1,4 @@
+/* pages/home/home.wxss */
+.top-view{padding: 15px;}
+.title{margin-left: 15px;padding-left: 15px;border-left: 3px solid #f5c243;color: #f5c243;}
+.text{text-align: center;font-size: 12px;}

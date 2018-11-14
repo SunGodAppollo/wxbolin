@@ -1,0 +1,12 @@
+<!--pages/editAddress/editAddress.wxml-->
+<view class="item">收货人：王先生</view>
+<view class="item">手机号码：13800000000</view>
+<view class="item">所在地区：四川省成都市高新区</view>
+<view class="item">详细地址：天府二街环球时代中心</view>
+
+
+
+<view class="foot">
+<view class="foot-left">取消</view>
+<view class="foot-right">保存</view>
+</view>

@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/home/home",
+    "pages/editAddress/editAddress",
     "pages/bangdingnewcard/bangdingnewcard",
     "pages/xiaofei/xiaofei",
     "pages/index/index",
