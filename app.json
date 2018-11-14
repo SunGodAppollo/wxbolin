@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/bangdingnewcard/bangdingnewcard",
     "pages/xiaofei/xiaofei",
     "pages/index/index",
     "pages/oder/oder",
