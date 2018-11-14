@@ -1,0 +1,10 @@
+/* pages/xiaofei/xiaofei.wxss */
+.xiaofei-content{
+padding: 30px 10px;
+font-size: 14px;
+text-align: center;
+border-bottom: 1px solid #eee;
+}
+.xiaofei-left{float: left; width: 220rpx;}
+.xiaofei-zhong{float: left;width: 280rpx;}
+.xiaofei-right{float: right; width: 200rpx;}

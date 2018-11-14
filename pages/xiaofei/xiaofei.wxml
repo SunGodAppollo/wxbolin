@@ -1,0 +1,8 @@
+<!--pages/xiaofei/xiaofei.wxml-->
+<block wx:for="{{xiaofeilist}}">
+<view class="xiaofei-content">
+<view class="xiaofei-left">雅诗兰黛</view>
+<view class="xiaofei-zhong">2018-1-10  16:42</view>
+<view class="xiaofei-right">-30</view>
+</view>
+</block>

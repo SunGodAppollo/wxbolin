@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/oder/oder",
+    "pages/xiaofei/xiaofei",
     "pages/index/index",
+    "pages/oder/oder",
     "pages/logs/logs",
     "pages/goodsInfo/goodsInfo"
   ],
