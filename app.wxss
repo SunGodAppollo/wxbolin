@@ -10,3 +10,5 @@
   box-sizing: border-box;
   background-color: #ccc;
 }
+.right{float: right;}
+.clear {clear: both;}
