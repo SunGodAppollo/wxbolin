@@ -62,6 +62,11 @@ Page({
         currentData: e.target.dataset.current
       })
     }
+  },
+  showInfo:function(){
+    wx.redirectTo({
+      url: '/pages/goodsInfo/goodsInfo'
+  });
   }
 
 
