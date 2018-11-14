@@ -1,21 +1,21 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+/* 搜索框组件 */
+@import "components/search/search.wxss";
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.col-f {
+  color: #fff;
 }
-
-.userinfo-nickname {
-  color: #aaa;
+.ts-3 {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
-
-.usermotto {
-  margin-top: 200px;
+.dis-flex {
+  display: flex !important;
+  flex-wrap: wrap;
+}
+.diy-search-box {
+  width: 100%;
+  background:#f5c243;
+  padding:24rpx;
 }
