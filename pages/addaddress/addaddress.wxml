@@ -1,0 +1,34 @@
+<!--pages/addaddress/addaddress.wxml-->
+<view style="">
+<view style="padding:10px 30px; border-bottom: 1px solid #ddd;">
+<text >收货人:</text>
+
+<input  style="display:inline-block;line-height:50px;" maxlength="10" placeholder="11" />
+</view>
+
+<view style="padding:10px 30px; border-bottom: 1px solid #ddd;">
+<text >手机号码:</text>
+
+<input  style="display:inline-block;line-height:50px;" maxlength="10" placeholder="11" />
+</view>
+
+<view style="padding:10px 30px; border-bottom: 1px solid #ddd;">
+<text >所在地区:</text>
+
+<picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+   <view class="picker">
+     当前选择：{{array[index]}}
+   </view>
+ </picker>
+</view>
+
+<view style="padding:10px 30px; border-bottom: 1px solid #ddd;">
+<text >详细地址:</text>
+
+<input  style="display:inline-block;line-height:50px;" maxlength="10" placeholder="如街道门牌号等" />
+
+</view>
+
+</view>
+
+<button style="background-color:#f5c243;color:#fff"> 保存 </button>
