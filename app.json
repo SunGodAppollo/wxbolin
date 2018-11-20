@@ -9,7 +9,7 @@
     "pages/index/index",
     "pages/oder/oder",
     "pages/logs/logs",
-    "pages/goodsInfo/goodsInfo",
+    "pages/goodsInfo/goodsInfo"
   ],
   "window": {
     "backgroundTextStyle": "light",

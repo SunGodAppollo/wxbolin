@@ -5,7 +5,22 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    imglis:[
+      '/images/img (1).jpg',
+      '/images/img (2).jpg',
+      '/images/img (3).jpg',
+      '/images/img (4).jpg',
+    ],
+    pinglunlis:[
+      '1',
+      '1',
+      '1',
+      '1',
+      '1',
+      '1',
+      '1',
+      '1',
+    ]
   },
 
   /**
@@ -64,5 +79,26 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  //获取当前滑块的index
+  bindchange:function(e){
+    const that  = this;
+    that.setData({
+      currentData: e.detail.current
+    })
+  },
+  //点击切换，滑块index赋值
+  checkCurrent:function(e){
+    const that = this;
+
+    if (that.data.currentData === e.target.dataset.current){
+        return false;
+    }else{
+
+      that.setData({
+        currentData: e.target.dataset.current
+      })
+    }
   }
+
 })
