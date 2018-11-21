@@ -1,1 +1,6 @@
 /* pages/addaddress/addaddress.wxss */
+
+.saveBtn{
+margin-top: 80px;
+width: 80%;
+}

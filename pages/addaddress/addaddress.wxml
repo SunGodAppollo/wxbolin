@@ -1,34 +1,34 @@
 <!--pages/addaddress/addaddress.wxml-->
 <view style="">
 <view style="padding:10px 30px; border-bottom: 1px solid #ddd;">
-<text >收货人:</text>
+<label >收货人:</label>
 
-<input  style="display:inline-block;line-height:50px;" maxlength="10" placeholder="11" />
+<input  class="fr" maxlength="10" placeholder="11" />
 </view>
 
 <view style="padding:10px 30px; border-bottom: 1px solid #ddd;">
-<text >手机号码:</text>
+<label >手机号码:</label>
 
-<input  style="display:inline-block;line-height:50px;" maxlength="10" placeholder="11" />
+<input  class="fr" maxlength="10" placeholder="11" />
 </view>
 
 <view style="padding:10px 30px; border-bottom: 1px solid #ddd;">
-<text >所在地区:</text>
+
 
 <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
    <view class="picker">
-     当前选择：{{array[index]}}
+    所在地区：{{array[index]}}
    </view>
  </picker>
 </view>
 
 <view style="padding:10px 30px; border-bottom: 1px solid #ddd;">
-<text >详细地址:</text>
+<label >详细地址:</label>
 
-<input  style="display:inline-block;line-height:50px;" maxlength="10" placeholder="如街道门牌号等" />
-
-</view>
+<input  class="fr" maxlength="10" placeholder="如街道门牌号等" />
 
 </view>
 
-<button style="background-color:#f5c243;color:#fff"> 保存 </button>
+</view>
+
+<button class="saveBtn" style="background-color:#f5c243;color:#fff"> 保存 </button>
