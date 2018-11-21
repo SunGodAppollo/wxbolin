@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/register/register",
+    "pages/login/login",
     "pages/addaddress/addaddress",
     "pages/xiangqing/xiangqing",
     "pages/serch/serch",

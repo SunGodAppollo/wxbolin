@@ -1,0 +1,34 @@
+<view class="pd">
+
+<view style="height:100px;">
+
+<image  mode="aspectFit" style="display: block;margin: 0 auto;border-radius: 5px;width: 100px;height:100px;" src="/images/tou.jpg"></image>
+
+</view>
+
+
+<view class="hr" style="padding:10px 0px;">
+  <view class="fl" style="width:65%;">
+    <input type="number"  style="text-align:left;"  maxlength="10" placeholder="输入手机号" />
+  </view>
+    <text style="display:none">获取验证码</text>
+    <view class="fr" style="width:34%;color:#666">获取验证码</view>
+    <view class="clear" ></view>
+</view>
+
+
+<view>
+    <input type="number"  style="text-align:left;padding:10px 0px;" class="hr w-all" maxlength="10" placeholder="输入验证码" />
+</view>
+
+<view>
+  <input type="text" password="true" style="text-align:left;padding:10px 0px;" class="hr" maxlength="10" placeholder="输入密码" />
+</view>
+
+
+<button class="saveBtn btn btn-m btn-def"  style="color:#fff">注册</button>
+
+
+
+
+</view>

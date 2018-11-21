@@ -31,4 +31,4 @@
 
 </view>
 
-<button class="saveBtn" style="background-color:#f5c243;color:#fff"> 保存 </button>
+<button class="saveBtn btn"  style="background-color:#f5c243;color:#fff"> 保存 </button>

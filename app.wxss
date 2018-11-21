@@ -12,3 +12,28 @@
 }
 .right{float: right;}
 .clear {clear: both;}
+.w-all{
+  width: 100%;
+}
+.pd{
+  padding: 30px;
+}
+.hr{
+  border-bottom: 1px solid #ddd;
+}
+
+.btn{
+/*border-radius: 5px;*/
+}
+.btn-m{
+margin: 20px 0px;
+}
+.btn-def{
+  color: #fff;
+  background-color:#f5c243;
+}
+.btn-def2{
+  color: #f5c243;
+  border: 1px solid #f5c243;
+  background-color:#fff;
+}

@@ -1,0 +1,45 @@
+<!--pages/login/login.wxml-->
+
+<view class="pd">
+
+<view style="height:100px;">
+
+<image  mode="aspectFit" style="display: block                ;margin: 0 auto;border-radius: 5px;width: 100px;height:100px;" src="/images/tou.jpg"></image>
+
+</view>
+
+
+<view class='topTabSwiper'>
+    <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}'  data-current = "0" bindtap='checkCurrent'>帐号登录</view>
+    <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}'  data-current = "1" bindtap='checkCurrent'>快速登录</view>
+</view>
+<swiper current="{{currentData}}" class='swiper' style="height:10000px;" duration="300" bindchange="bindchange">
+  <swiper-item><view class='swiper_con'>
+
+
+  <view>
+      <input type="number"  style="text-align:left;padding:10px 0px;" class="hr w-all" maxlength="10" placeholder="输入手机号" />
+  </view>
+
+  <view>
+    <input type="text" password="true" style="text-align:left;padding:10px 0px;" class="hr" maxlength="10" placeholder="输入密码" />
+  </view>
+  <view style="padding:10px 0px;">
+  <view  class="fr" style="font-size:12px; color:#666">忘记密码?</view>
+  </view>
+
+  <button class="saveBtn btn btn-m btn-def"  style="color:#fff">登录</button>
+  <button class="saveBtn btn btn-m btn-def2" >注册</button>
+
+
+  </view></swiper-item>
+
+  <swiper-item><view class='swiper_con'>
+    11
+  </view></swiper-item>
+
+</swiper>
+
+
+
+</view>
