@@ -1,0 +1,37 @@
+<!--pages/xuanzheaddress/xuanzheaddress.wxml-->
+<view  class="item" >
+  <view class="item-left">
+    <view >
+      <view class="fl">收货人:王先生</view>
+      <view class="fr">18980004397</view>
+      <view class="clear"></view>
+    </view>
+    <view style="margin-top:10px;">收货地址:四川省成都市高新区天府二街环球时代中心2单元2号</view>
+  </view>
+  <view class="item-right">
+    <image  mode="aspectFit" style="display: block;margin: 30px auto;border-radius: 5px;width: 25px;height:25px;" src="/images/icon/on.png"></image>
+  </view>
+  <view class="clear"></view>
+
+</view>
+
+
+<view  class="item" >
+  <view class="item-left">
+    <view >
+      <view class="fl">收货人:王先生</view>
+      <view class="fr">18980004397</view>
+      <view class="clear"></view>
+    </view>
+    <view style="margin-top:10px;">收货地址:四川省成都市高新区天府二街环球时代中心2单元2号</view>
+  </view>
+  <view class="item-right">
+    <image  mode="aspectFit" style="display: block;margin: 30px auto;border-radius: 5px;width: 25px;height:25px;" src="/images/icon/off.png"></image>
+  </view>
+  <view class="clear"></view>
+
+</view>
+
+<view style="width:80%;margin: 10px auto;">
+<button class="saveBtn btn btn-m btn-def"  style="color:#fff">管理地址</button>
+</view>

@@ -1,0 +1,15 @@
+<!--pages/myyouhui/myyouhui.wxml-->
+<view class='topTabSwiper'>
+    <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}'  data-current = "0" bindtap='checkCurrent'>全部</view>
+    <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}'  data-current = "1" bindtap='checkCurrent'>已使用</view>
+    <view class='tab  {{currentData == 2 ? "tabBorer" : ""}}'  data-current = "2" bindtap='checkCurrent'>未使用</view>
+</view>
+<swiper current="{{currentData}}" class='swiper' style="height:10000px;" duration="300" bindchange="bindchange">
+  <swiper-item><view class='swiper_con'>
+  全部
+
+  </view></swiper-item>
+  <swiper-item><view class='swiper_con'>礼品卡</view></swiper-item>
+  <swiper-item><view class='swiper_con'>分类一</view></swiper-item>
+
+</swiper>

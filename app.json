@@ -1,5 +1,9 @@
 {
   "pages": [
+    "pages/myyouhui/myyouhui",
+    "pages/mycode/mycode",
+    "pages/address/address",
+    "pages/xuanzheaddress/xuanzheaddress",
     "pages/register/register",
     "pages/login/login",
     "pages/addaddress/addaddress",
